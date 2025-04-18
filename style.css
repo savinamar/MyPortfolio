@@ -1,6 +1,6 @@
 <style>
     body {
-    background: url('./assets/images/back.avif') no-repeat center center fixed;
+    background: url('back.avif') no-repeat center center fixed;
     background-size: cover;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
