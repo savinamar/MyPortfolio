@@ -1,7 +1,5 @@
 <style>
     body {
-		
-{
     background: url('images/cyber-bg.avif') no-repeat center center fixed;
     background-size: cover;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -10,7 +8,7 @@
     color: #f0f0f0;
     position: relative;
     z-index: 1;
-  }
+}
 
   /* σκοτεινό overlay πάνω από το background για καλύτερη αναγνωσιμότητα */
   body::before {
