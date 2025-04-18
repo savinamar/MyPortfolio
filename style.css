@@ -1,5 +1,4 @@
-<style>
-    body {
+body {
     background: url('back.avif') no-repeat center center fixed;
     background-size: cover;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -199,5 +198,3 @@
 		section#skills {
 	text-align: left;
 	}
-	
-  </style>
