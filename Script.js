@@ -1,6 +1,7 @@
-  const toggleButton = document.querySelector('.menu-toggle');
-  const menu = document.querySelector('.menu');
+const toggleButton = document.querySelector('.menu-toggle');
+const menu = document.querySelector('.menu');
 
-  toggleButton.addEventListener('click', () => {
-    menu.style.display = menu.style.display === 'flex' ? 'none' : 'flex';
-  });
+toggleButton.addEventListener('click', () => {
+  const currentDisplay = window.getComputedStyle(menu).display;
+  menu.style.display = currentDisplay === 'none' ? 'flex' : 'none';
+});
